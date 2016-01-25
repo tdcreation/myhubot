@@ -16,3 +16,6 @@ module.exports = (robot) ->
 
     robot.hear /((寝|ね)るわ)|((寝|ね)よ?う)/, (msg) ->
         msg.send msg.random ["おやすみなさい","ゆっくり休んでね★","良い夢見ましょう♪おやすみなさい〜"]
+
+    robot.hear /(かすみーん|かすみん)/, (msg) ->
+        msg.send msg.random ["なーに？","なんですか〜？","呼びましたか？","はいはーい★"]
