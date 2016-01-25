@@ -5,5 +5,5 @@ module.exports = (robot) ->
     robot.respond /(好き|すき)/i, (msg) ->
           msg.send msg.random ["ｴﾍｯ///","照れちゃうじゃないですか★","ありがと///"]
 
-    robot.respond /(大好き|だいすき|love)/i, (msg) ->
-          msg.send msg.random ["ありがとうございます♪ワタシも・・ですよ///"]
+    robot.respond /(大好き|だいすき|love|愛してる)/i, (msg) ->
+          msg.send msg.random ["ありがとうございます♪ワタシも・・ですよ///","そんなこと言われたらワタシも好きになっちゃいますよ///"]
