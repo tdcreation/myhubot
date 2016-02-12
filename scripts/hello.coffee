@@ -126,6 +126,3 @@ module.exports = (robot) ->
 
     robot.hear /(かすみーん|かすみん|かすみ|かっすみーん)/, (msg) ->
         msg.send msg.random kasumin
-
-    robot.hear /(カスカス|カス子|春日)/, (msg) ->
-        msg.send msg.random angry

@@ -3,7 +3,7 @@ module.exports = (robot) ->
   ## 起きた時、slack-adapterがつながるのを待って通知
   cid = setInterval ->
     return if typeof robot?.send isnt 'function'
-    robot.send {room: "#random"}, 'かすみ★いっきまーす！みなの衆、今日も楽しいこと見つけていくぞー♪'
+    robot.send {room: "#random"}, 'かすみ★いっきまーす！今日も楽しいこと見つけていくぞー♪'
     clearInterval cid
   , 1000
 
